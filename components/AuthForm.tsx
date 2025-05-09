@@ -73,7 +73,7 @@ const form = useForm<z.infer<typeof formSchema>>({
                     email, idToken
                 })
 
-                toast.success('Signed in successfully. Please sign-in')
+                toast.success('Signed in successfully.')
                 router.push('/')
             }
         } catch (error) {
