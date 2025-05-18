@@ -28,9 +28,6 @@ const FormField = ({control, name, label, placeholder, type="text"}: FormFieldPr
                 <FormControl>
                     <Input type={type} placeholder={placeholder} {...field} />
                 </FormControl>
-                <FormDescription>
-                    This is your public display name.
-                </FormDescription>
                 <FormMessage />
             </FormItem>
         )}
